@@ -3,3 +3,99 @@ body {
 background-color: orange;
 
 }
+#playground {
+
+	border: 5px dotted black;
+	color: purple;
+}
+
+
+.child {
+	/*background-color: slategray;*/
+}
+
+
+li {
+
+	border-bottom: 3px solid tomato;
+}
+
+#playground > h1 {color: blue}
+
+.child ~ p {
+	background-color: green;
+}
+
+#playground {
+	display: none;
+}
+
+h1 {
+	font-family: 'Barrio', cursive;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: purple;
+}
+
+#accomplishments > h2 {
+	text-align: center;
+	color: slategray;
+
+}
+
+.accomplishments {
+	margin: 0 auto;
+	width: 40%;
+
+	padding: 5px;
+
+}
+
+.accomplishments img {
+	width: 10%;
+}
+
+.accomplishments a {
+	text-decoration: none;
+	color: black
+	font-weight: bold;
+}
+
+.accomplishments: nth-of-type(1) {
+background-color: lightblue;
+}
+
+.accomplishments: nth-of-type(2) {
+	background-color: lavender;
+}
+#images {
+	display: flex;
+	justify-content: space-around;
+	margin: 13px;
+	height: 300px;
+}
+
+#images div {
+	width: 30%;
+	overflow: hidden;
+
+
+}
+
+#images img {
+	width: 100%;
+}
+
+#images div:nth-of-type(2) {
+ border-radius: 100%;
+ 
+}
+
+
+
+#images div:nth-of-type(3) {
+ border-radius: 5%;
+ 
+}
